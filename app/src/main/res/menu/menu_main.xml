@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.taruc.lab22menu.MainActivity">
+    <item
+        android:id="@+id/action_increase"
+        android:icon="@drawable/ic_add_white_24dp"
+        android:orderInCategory="100"
+        android:title="increase"
+        app:showAsAction="never|ifRoom" />
+    <item
+        android:id="@+id/action_settings"
+        android:layout_height="match_parent"
+        android:orderInCategory="101"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_decrease"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/ic_remove_white_24dp"
+        android:orderInCategory="102"
+        android:title="decrease"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_about_us"
+        android:orderInCategory="103"
+        android:title="About Us"
+        app:showAsAction="never" />
+</menu>
